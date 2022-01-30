@@ -170,8 +170,8 @@ namespace ProgrammingIntroduction
         /// sum1 variable adds up the numbers where if the sum of the indexes i & j equals to the length of the 2D and is substracted 1 from it. r
         /// res variable adds up sum and sum1 and returns the total sum.
         /// </summary>
-        /// <param name="bulls_grid"></param>
-        /// <returns></returns>
+        /// <param name="bulls_grid">bulls_grid takes 2D arrays of integers as parameters</param>
+        /// <returns>The sum of the diagonal elements</returns>
         private static int DiagonalSum(int[,] bulls_grid)
         {
             try
